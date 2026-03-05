@@ -1,0 +1,8 @@
+*.gs
+*.md
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.gif
+!.gitignore

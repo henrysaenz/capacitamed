@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapacitaMed - Volantes Digitales</title>
+  <meta name="description" content="Capacitaciones especializadas para profesionales de la salud. Cursos y herramientas digitales por CapacitaMed.">
+  <meta property="og:title" content="CapacitaMed - Volantes Digitales">
+  <meta property="og:description" content="Capacitaciones especializadas para profesionales de la salud.">
+  <meta property="og:type" content="website">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 50%, #0d1f3c 100%);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .logo-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .logo-section h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #FFD700, #FFA500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+    .logo-section p {
+      color: rgba(255,255,255,0.7);
+      font-size: 1rem;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #FFD700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 20px;
+      margin-bottom: 4px;
+      padding-left: 4px;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 24px;
+      text-decoration: none;
+      color: #ffffff;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+    .card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.4;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-curso { background: linear-gradient(135deg, #FFD700, #FFA500); color: #1a1a2e; }
+    .badge-medapp { background: linear-gradient(135deg, #00C9FF, #0078D4); color: #ffffff; }
+    footer {
+      margin-top: 50px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-section">
+    <h1>CapacitaMed</h1>
+    <p>Capacitaciones para Profesionales de la Salud</p>
+  </div>
+
+  <div class="cards">
+    <div class="section-title">Curso: Gestion Comercial en Salud</div>
+
+    <a class="card" href="curso-gestion-comercial.html">
+      <span class="badge badge-curso">Curso</span>
+      <h3>Presentacion Oficial</h3>
+      <p>Informacion completa del curso de Gestion Comercial para profesionales de la salud.</p>
+    </a>
+
+    <a class="card" href="curso-lanzamiento.html">
+      <span class="badge badge-curso">Curso</span>
+      <h3>Email de Lanzamiento</h3>
+      <p>Invitacion al lanzamiento del curso con detalles de fechas e inscripcion.</p>
+    </a>
+
+    <a class="card" href="curso-presentacion-email.html">
+      <span class="badge badge-curso">Curso</span>
+      <h3>Presentacion por Email</h3>
+      <p>Version resumida para envio por correo electronico.</p>
+    </a>
+
+    <div class="section-title">MedApp - Herramienta Digital</div>
+
+    <a class="card" href="medapp/presentacion.html">
+      <span class="badge badge-medapp">MedApp</span>
+      <h3>Presentacion MedApp</h3>
+      <p>Conoce MedApp, la herramienta digital para gestion de consultorios medicos.</p>
+    </a>
+
+    <a class="card" href="medapp/lanzamiento.html">
+      <span class="badge badge-medapp">MedApp</span>
+      <h3>Lanzamiento MedApp</h3>
+      <p>Anuncio oficial del lanzamiento de MedApp con funcionalidades y acceso.</p>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2026 CapacitaMed. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
